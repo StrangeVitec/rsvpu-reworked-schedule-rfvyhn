@@ -4,8 +4,8 @@
 // @version      1.2.1
 // @description  Обновленные UI и UX, новые фичи, фиксы, миграция на MDUI, собственная реализация большей части компонентов. С поддержкой PWA
 // @author       Strange Vitec, Google Gemini
-// @updateURL    https://github.com/StrangeVitec/rsvpu-reworked-schedule-rfvyhn/raw/main/rsvpu-reworked-schedule-rfvyhn.user.js
-// @downloadURL  https://github.com/StrangeVitec/rsvpu-reworked-schedule-rfvyhn/raw/main/rsvpu-reworked-schedule-rfvyhn.user.js
+// @updateURL    https://github.com/StrangeVitec/rsvpu-reworked-schedule-rfvyhn/raw/refs/heads/main/rsvpu-reworked-schedule-rfvyhn.user.js
+// @downloadURL  https://github.com/StrangeVitec/rsvpu-reworked-schedule-rfvyhn/raw/refs/heads/main/rsvpu-reworked-schedule-rfvyhn.user.js
 // @match        https://rfvyhn.rsvpu.ru/mobile/*
 // @grant        GM_addStyle
 // @grant        GM_setValue
@@ -1395,5 +1395,6 @@
         // --- Запуск ---
         main();
     });
+
 
 })();
