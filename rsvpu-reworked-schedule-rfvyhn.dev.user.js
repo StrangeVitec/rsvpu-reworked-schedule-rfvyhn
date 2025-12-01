@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [DEV] Современное переработанное расписание РГППУ
 // @namespace    Violentmonkey Scripts for RSVPU
-// @version      1.2.1.0-dev
+// @version      1.2.1.1-dev
 // @description  Обновленные UI и UX, новые фичи, фиксы, миграция на MDUI, собственная реализация большей части компонентов. С поддержкой PWA
 // @author       Strange Vitec, Google Gemini
 // @updateURL    https://github.com/StrangeVitec/rsvpu-reworked-schedule-rfvyhn/raw/refs/heads/main/rsvpu-reworked-schedule-rfvyhn.dev.user.js
