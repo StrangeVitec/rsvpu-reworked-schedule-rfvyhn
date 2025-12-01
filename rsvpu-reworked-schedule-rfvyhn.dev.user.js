@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [DEV] Современное переработанное расписание РГППУ
 // @namespace    Violentmonkey Scripts for RSVPU
-// @version      1.2.1.1-dev
+// @version      1.2.1.2-dev
 // @description  Обновленные UI и UX, новые фичи, фиксы, миграция на MDUI, собственная реализация большей части компонентов. С поддержкой PWA
 // @author       Strange Vitec, Google Gemini
 // @updateURL    https://github.com/StrangeVitec/rsvpu-reworked-schedule-rfvyhn/raw/refs/heads/main/rsvpu-reworked-schedule-rfvyhn.dev.user.js
@@ -1114,11 +1114,11 @@
                     listItem.setAttribute('rounded', '');
                     listItem.textContent = item.textContent;
                     listItem.setAttribute('data-value', item.getAttribute('data'));
-                    listItem.addEventListener('click', () => {
-                        const baseUrl = window.location.origin + window.location.pathname;
-                        const finalUrl = `${baseUrl}?${dataType}=${item.getAttribute('data')}`;
-                        window.location.href = finalUrl;
-                    });
+                    // Формируем ссылку сразу и используем нативный href
+                    const baseUrl = window.location.origin + window.location.pathname;
+                    const finalUrl = `${baseUrl}?${dataType}=${item.getAttribute('data')}`;
+                    listItem.setAttribute('href', finalUrl);
+                    
                     list.appendChild(listItem);
                 }
             }
