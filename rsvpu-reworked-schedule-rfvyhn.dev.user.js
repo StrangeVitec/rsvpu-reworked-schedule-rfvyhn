@@ -175,6 +175,12 @@
       flex-grow: 1; /* Растягиваем */
     }
 
+    /* Стиль для сообщения об отсутствии пар */
+    .content h4.empty {
+        width: 100% !important;
+        color: var(--text-primary) !important;
+    }
+
     .dateBlock { background-color: var(--bg-secondary) !important; margin-bottom: calc(var(--spacing-unit) * 3) !important; border: 1px solid var(--border-color) !important; border-radius: var(--border-radius-large) !important; box-shadow: var(--shadow-elevation-1) !important; overflow: hidden; }
     .dateToday { background-color: var(--bg-header-alt) !important; color: var(--text-primary) !important; border-radius: 0 !important; box-shadow: none !important; font-weight: 500; }
     .tableRasp { background: var(--bg-secondary) !important; border-radius: 0 !important; box-shadow: none !important; border: none !important; margin-bottom: 0 !important; }
